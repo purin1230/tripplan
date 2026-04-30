@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>5/1-5/2 輕旅行｜帶狗版</title>
+<style>
+:root{
+  --bg:#f6f2ea;
+  --card:#ffffff;
+  --text:#2f2a24;
+  --muted:#766b60;
+  --green:#6f8f5f;
+  --green-dark:#4f6f43;
+  --brown:#9a6b43;
+  --line:#eadfce;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC","Microsoft JhengHei",sans-serif;
+  background:linear-gradient(180deg,#fbf7ef 0%,#f2eadf 100%);
+  color:var(--text);
+}
+.hero{
+  padding:34px 18px 26px;
+  text-align:center;
+  background:linear-gradient(135deg,#5f7f55,#c49a6c);
+  color:#fff;
+}
+.hero h1{margin:0;font-size:30px;letter-spacing:.04em}
+.hero p{margin:10px 0 0;font-size:15px;opacity:.95}
+.container{max-width:900px;margin:0 auto;padding:18px}
+.summary{
+  background:var(--card);
+  border-radius:22px;
+  padding:18px;
+  margin-top:-18px;
+  box-shadow:0 10px 28px rgba(60,40,20,.12);
+}
+.summary h2{margin:0 0 8px;font-size:20px}
+.summary p{line-height:1.65;color:var(--muted);margin:0}
+.badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.badge{background:#eef3ea;color:var(--green-dark);border:1px solid #dbe7d2;padding:7px 10px;border-radius:999px;font-size:13px}
+.day-title{margin:26px 4px 14px;font-size:22px;color:var(--green-dark)}
+.card{
+  background:var(--card);
+  border-radius:22px;
+  overflow:hidden;
+  margin-bottom:18px;
+  box-shadow:0 8px 20px rgba(70,50,30,.10);
+  border:1px solid rgba(255,255,255,.8);
+}
+.card img{width:100%;height:220px;object-fit:cover;display:block}
+.card-body{padding:18px}
+.time{display:inline-block;color:#fff;background:var(--brown);border-radius:999px;padding:6px 11px;font-size:13px;margin-bottom:10px}
+.card h3{margin:4px 0 8px;font-size:21px}
+.card p{margin:0 0 12px;line-height:1.65;color:var(--muted);font-size:15px}
+.note{background:#fff8ed;border-left:4px solid #d9a15f;padding:10px 12px;border-radius:12px;color:#6d563f;font-size:14px;margin:12px 0}
+.btn{display:block;text-align:center;background:var(--green);color:#fff;text-decoration:none;padding:13px 14px;border-radius:14px;font-weight:700;margin-top:10px}
+.btn.secondary{background:#8b735b}
+.route{background:#fff;border-radius:22px;padding:18px;margin:14px 0 22px;border:1px solid var(--line)}
+.route h3{margin:0 0 10px}
+.route ol{margin:0;padding-left:22px;line-height:1.8;color:#5f554b}
+.footer{text-align:center;color:#8d8277;padding:24px 8px 34px;font-size:13px}
+@media(max-width:640px){
+  .hero h1{font-size:25px}
+  .card img{height:185px}
+  .container{padding:14px}
+}
+@media print{
+  .btn{display:none}
+  body{background:#fff}
+  .card,.summary,.route{box-shadow:none}
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <h1>🐶 5/1–5/2 輕旅行</h1>
+  <p>賞桐花 × 放鬆午餐 × 大草地放狗 × 台中住宿</p>
+</header>
+
+<main class="container">
+
+<section class="summary">
+  <h2>行程總覽</h2>
+  <p>這趟以「不趕、好拍、狗狗也能放風」為主軸，5/1從桃園出發，先到苗栗賞五月雪，再到莫內秘密花園午餐，下午拍龍騰斷橋，晚上進台中放狗、晚餐與住宿。5/2睡到自然醒後安排大草地，下午回桃園。</p>
+  <div class="badges">
+    <span class="badge">🚗 自駕順路</span>
+    <span class="badge">🐶 帶狗友善</span>
+    <span class="badge">🌸 油桐花</span>
+    <span class="badge">🌳 大草地</span>
+    <span class="badge">📍 一鍵導航</span>
+  </div>
+</section>
+
+<h2 class="day-title">DAY 1｜5/1 桃園 → 苗栗 → 台中</h2>
+
+<section class="route">
+  <h3>5/1 最順路線</h3>
+  <ol>
+    <li>10:00 桃園火車站出發</li>
+    <li>11:30 五月雪步道／鳴鳳古道賞桐花</li>
+    <li>13:30 莫內秘密花園午餐</li>
+    <li>15:30 龍騰斷橋拍照</li>
+    <li>17:40 文心森林公園放狗</li>
+    <li>18:40 容燒居酒屋晚餐</li>
+    <li>20:30 海頓精品汽車旅館入住</li>
+  </ol>
+</section>
+
+<div class="card">
+  <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjcyMCIgdmlld0JveD0iMCAwIDEyMDAgNzIwIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjOGZiZjhmIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2YzZDlkNCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3Qgd2lkdGg9IjEyMDAiIGhlaWdodD0iNzIwIiBmaWxsPSJ1cmwoI2cpIi8+CiAgPGNpcmNsZSBjeD0iOTgwIiBjeT0iMTIwIiByPSIxOTAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICA8Y2lyY2xlIGN4PSIxNjAiIGN5PSI2MjAiIHI9IjIzMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjE0KSIvPgogIDx0ZXh0IHg9IjgwIiB5PSIyMzAiIGZvbnQtc2l6ZT0iOTYiIGZvbnQtZmFtaWx5PSJBcHBsZSBDb2xvciBFbW9qaSwgU2Vnb2UgVUkgRW1vamksIHNhbnMtc2VyaWYiPvCfjLg8L3RleHQ+CiAgPHRleHQgeD0iODAiIHk9IjM2MCIgZm9udC1zaXplPSI2NCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ05vdG8gU2FucyBUQycsIHNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IndoaXRlIj7kupTmnIjpm6rmraXpgZM8L3RleHQ+CiAgPHRleHQgeD0iODIiIHk9IjQzMCIgZm9udC1zaXplPSIzNCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ05vdG8gU2FucyBUQycsIHNhbnMtc2VyaWYiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC45KSI+6bO06bOz5Y+k6YGT772c5rK55qGQ6Iqx5Li75pmvPC90ZXh0Pgo8L3N2Zz4=" alt="五月雪步道">
+  <div class="card-body">
+    <span class="time">11:30–13:00</span>
+    <h3>🌸 五月雪步道／鳴鳳古道</h3>
+    <p>本日主景，走森林步道賞油桐花，拍照氛圍自然。建議穿好走鞋，停留約1至1.5小時即可。</p>
+    <a class="btn" href="https://www.google.com/maps/search/?api=1&query=鳴鳳古道" target="_blank">🌸 一鍵導航：鳴鳳古道</a>
+  </div>
+</div>
+
+<div class="card">
+  <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjcyMCIgdmlld0JveD0iMCAwIDEyMDAgNzIwIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjNzhhODc4Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2Q4YjU3MiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3Qgd2lkdGg9IjEyMDAiIGhlaWdodD0iNzIwIiBmaWxsPSJ1cmwoI2cpIi8+CiAgPGNpcmNsZSBjeD0iOTgwIiBjeT0iMTIwIiByPSIxOTAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICA8Y2lyY2xlIGN4PSIxNjAiIGN5PSI2MjAiIHI9IjIzMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjE0KSIvPgogIDx0ZXh0IHg9IjgwIiB5PSIyMzAiIGZvbnQtc2l6ZT0iOTYiIGZvbnQtZmFtaWx5PSJBcHBsZSBDb2xvciBFbW9qaSwgU2Vnb2UgVUkgRW1vamksIHNhbnMtc2VyaWYiPvCfjb3vuI88L3RleHQ+CiAgPHRleHQgeD0iODAiIHk9IjM2MCIgZm9udC1zaXplPSI2NCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ05vdG8gU2FucyBUQycsIHNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IndoaXRlIj7ojqvlhafnp5jlr4boirHlnJI8L3RleHQ+CiAgPHRleHQgeD0iODIiIHk9IjQzMCIgZm9udC1zaXplPSIzNCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ05vdG8gU2FucyBUQycsIHNhbnMtc2VyaWYiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC45KSI+6Iqx5ZyS5Y2I6aSQ772c5pS+6ayG5LyR5oGvPC90ZXh0Pgo8L3N2Zz4=" alt="莫內秘密花園">
+  <div class="card-body">
+    <span class="time">13:30–15:00</span>
+    <h3>🍽️ 莫內秘密花園｜午餐＋休息</h3>
+    <p>走完步道後安排景觀餐廳休息，補充體力、拍照、放慢節奏，避免下午行程太趕。</p>
+    <a class="btn" href="https://maps.app.goo.gl/J5xtSXwaDNAuaRVY8" target="_blank">🍽️ 一鍵導航：莫內秘密花園</a>
+  </div>
+</div>
+
+<div class="card">
+  <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjcyMCIgdmlld0JveD0iMCAwIDEyMDAgNzIwIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjYTY1ZjRkIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2Q4YTc1ZiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3Qgd2lkdGg9IjEyMDAiIGhlaWdodD0iNzIwIiBmaWxsPSJ1cmwoI2cpIi8+CiAgPGNpcmNsZSBjeD0iOTgwIiBjeT0iMTIwIiByPSIxOTAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICA8Y2lyY2xlIGN4PSIxNjAiIGN5PSI2MjAiIHI9IjIzMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjE0KSIvPgogIDx0ZXh0IHg9IjgwIiB5PSIyMzAiIGZvbnQtc2l6ZT0iOTYiIGZvbnQtZmFtaWx5PSJBcHBsZSBDb2xvciBFbW9qaSwgU2Vnb2UgVUkgRW1vamksIHNhbnMtc2VyaWYiPvCfj5fvuI88L3RleHQ+CiAgPHRleHQgeD0iODAiIHk9IjM2MCIgZm9udC1zaXplPSI2NCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ05vdG8gU2FucyBUQycsIHNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IndoaXRlIj7pvo3pqLDmlrfmqYs8L3RleHQ+CiAgPHRleHQgeD0iODIiIHk9IjQzMCIgZm9udC1zaXplPSIzNCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ05vdG8gU2FucyBUQycsIHNhbnMtc2VyaWYiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC45KSI+6IuX5qCX57aT5YW45ouN54Wn6buePC90ZXh0Pgo8L3N2Zz4=" alt="龍騰斷橋">
+  <div class="card-body">
+    <span class="time">15:30–16:10</span>
+    <h3>🏗️ 龍騰斷橋</h3>
+    <p>保留最具代表性的苗栗經典景點，簡單拍照即可，不再加內社川橋與勝興車站，避免行程重複且太趕。</p>
+    <a class="btn" href="https://www.google.com/maps/search/?api=1&query=龍騰斷橋" target="_blank">🏗️ 一鍵導航：龍騰斷橋</a>
+  </div>
+</div>
+
+<div class="card">
+  <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjcyMCIgdmlld0JveD0iMCAwIDEyMDAgNzIwIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjNWY5ZjcyIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzhjYzZhMyIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3Qgd2lkdGg9IjEyMDAiIGhlaWdodD0iNzIwIiBmaWxsPSJ1cmwoI2cpIi8+CiAgPGNpcmNsZSBjeD0iOTgwIiBjeT0iMTIwIiByPSIxOTAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICA8Y2lyY2xlIGN4PSIxNjAiIGN5PSI2MjAiIHI9IjIzMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjE0KSIvPgogIDx0ZXh0IHg9IjgwIiB5PSIyMzAiIGZvbnQtc2l6ZT0iOTYiIGZvbnQtZmFtaWx5PSJBcHBsZSBDb2xvciBFbW9qaSwgU2Vnb2UgVUkgRW1vamksIHNhbnMtc2VyaWYiPvCfjL88L3RleHQ+CiAgPHRleHQgeD0iODAiIHk9IjM2MCIgZm9udC1zaXplPSI2NCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ05vdG8gU2FucyBUQycsIHNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IndoaXRlIj7mloflv4Pmo67mnpflhazlnJI8L3RleHQ+CiAgPHRleHQgeD0iODIiIHk9IjQzMCIgZm9udC1zaXplPSIzNCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ05vdG8gU2FucyBUQycsIHNhbnMtc2VyaWYiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC45KSI+5Y+w5Lit5pS+54uX772c5aSn6I2J5ZywPC90ZXh0Pgo8L3N2Zz4=" alt="文心森林公園">
+  <div class="card-body">
+    <span class="time">17:40–18:30</span>
+    <h3>🌿 文心森林公園｜狗狗放風</h3>
+    <p>進台中後先讓狗狗在草地放風，再去晚餐。這樣比硬找遠方草地餐廳更順路，也不會拖累晚上節奏。</p>
+    <a class="btn" href="https://www.google.com/maps/search/?api=1&query=文心森林公園" target="_blank">🌿 一鍵導航：文心森林公園</a>
+  </div>
+</div>
+
+<div class="card">
+  <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjcyMCIgdmlld0JveD0iMCAwIDEyMDAgNzIwIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjN2Q0YjNhIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2QyOGI0ZCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3Qgd2lkdGg9IjEyMDAiIGhlaWdodD0iNzIwIiBmaWxsPSJ1cmwoI2cpIi8+CiAgPGNpcmNsZSBjeD0iOTgwIiBjeT0iMTIwIiByPSIxOTAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICA8Y2lyY2xlIGN4PSIxNjAiIGN5PSI2MjAiIHI9IjIzMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjE0KSIvPgogIDx0ZXh0IHg9IjgwIiB5PSIyMzAiIGZvbnQtc2l6ZT0iOTYiIGZvbnQtZmFtaWx5PSJBcHBsZSBDb2xvciBFbW9qaSwgU2Vnb2UgVUkgRW1vamksIHNhbnMtc2VyaWYiPvCfjaI8L3RleHQ+CiAgPHRleHQgeD0iODAiIHk9IjM2MCIgZm9udC1zaXplPSI2NCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ05vdG8gU2FucyBUQycsIHNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IndoaXRlIj7lrrnnh5LlsYXphZLlsYs8L3RleHQ+CiAgPHRleHQgeD0iODIiIHk9IjQzMCIgZm9udC1zaXplPSIzNCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ05vdG8gU2FucyBUQycsIHNhbnMtc2VyaWYiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC45KSI+5pma6aSQ772c5bSH5b635Yqg55uf5bqXPC90ZXh0Pgo8L3N2Zz4=" alt="容燒居酒屋">
+  <div class="card-body">
+    <span class="time">18:40–20:30</span>
+    <h3>🍢 容燒居酒屋－崇德加盟店</h3>
+    <p>晚餐已確定。放狗後再用餐，距離住宿地點與公園都相對順路，晚餐節奏輕鬆不趕。</p>
+    <a class="btn" href="https://maps.app.goo.gl/2YHJojFQAdhCXRSo6" target="_blank">🍢 一鍵導航：容燒居酒屋</a>
+  </div>
+</div>
+
+<div class="card">
+  <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjcyMCIgdmlld0JveD0iMCAwIDEyMDAgNzIwIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjNTI2NDdhIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzliN2Q2MiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3Qgd2lkdGg9IjEyMDAiIGhlaWdodD0iNzIwIiBmaWxsPSJ1cmwoI2cpIi8+CiAgPGNpcmNsZSBjeD0iOTgwIiBjeT0iMTIwIiByPSIxOTAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICA8Y2lyY2xlIGN4PSIxNjAiIGN5PSI2MjAiIHI9IjIzMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjE0KSIvPgogIDx0ZXh0IHg9IjgwIiB5PSIyMzAiIGZvbnQtc2l6ZT0iOTYiIGZvbnQtZmFtaWx5PSJBcHBsZSBDb2xvciBFbW9qaSwgU2Vnb2UgVUkgRW1vamksIHNhbnMtc2VyaWYiPvCfj6g8L3RleHQ+CiAgPHRleHQgeD0iODAiIHk9IjM2MCIgZm9udC1zaXplPSI2NCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ05vdG8gU2FucyBUQycsIHNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IndoaXRlIj7mtbfpoJPnsr7lk4Hmsb3ou4rml4XppKg8L3RleHQ+CiAgPHRleHQgeD0iODIiIHk9IjQzMCIgZm9udC1zaXplPSIzNCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ05vdG8gU2FucyBUQycsIHNhbnMtc2VyaWYiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC45KSI+5L2P5a6/772c5LiA6Y215bCO6IiqPC90ZXh0Pgo8L3N2Zz4=" alt="海頓精品汽車旅館">
+  <div class="card-body">
+    <span class="time">20:30 後</span>
+    <h3>🏨 海頓精品汽車旅館</h3>
+    <p>住宿已確定。汽車旅館型態適合開車旅行，帶狗入住前建議先確認寵物規則、清潔費與指定房型。</p>
+    <div class="note">提醒：請自備狗墊、尿墊、毛巾與牽繩，避免旅館臨時規範造成不便。</div>
+    <a class="btn" href="https://maps.app.goo.gl/NYw7sBi46zeUsJC47" target="_blank">🏨 一鍵導航：海頓精品汽車旅館</a>
+  </div>
+</div>
+
+<h2 class="day-title">DAY 2｜5/2 台中 → 桃園</h2>
+
+<section class="route">
+  <h3>5/2 輕鬆收尾</h3>
+  <ol>
+    <li>10:30 睡到自然醒、退房</li>
+    <li>11:30 早午餐，可於住宿附近彈性安排</li>
+    <li>13:00 台中都會公園大草地放狗</li>
+    <li>15:00 出發回桃園</li>
+  </ol>
+</section>
+
+<div class="card">
+  <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjcyMCIgdmlld0JveD0iMCAwIDEyMDAgNzIwIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjNGY4ZjY3Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2I5ZDg5YiIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3Qgd2lkdGg9IjEyMDAiIGhlaWdodD0iNzIwIiBmaWxsPSJ1cmwoI2cpIi8+CiAgPGNpcmNsZSBjeD0iOTgwIiBjeT0iMTIwIiByPSIxOTAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICA8Y2lyY2xlIGN4PSIxNjAiIGN5PSI2MjAiIHI9IjIzMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjE0KSIvPgogIDx0ZXh0IHg9IjgwIiB5PSIyMzAiIGZvbnQtc2l6ZT0iOTYiIGZvbnQtZmFtaWx5PSJBcHBsZSBDb2xvciBFbW9qaSwgU2Vnb2UgVUkgRW1vamksIHNhbnMtc2VyaWYiPvCfjLM8L3RleHQ+CiAgPHRleHQgeD0iODAiIHk9IjM2MCIgZm9udC1zaXplPSI2NCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ05vdG8gU2FucyBUQycsIHNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IndoaXRlIj7lj7DkuK3pg73mnIPlhazlnJI8L3RleHQ+CiAgPHRleHQgeD0iODIiIHk9IjQzMCIgZm9udC1zaXplPSIzNCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ05vdG8gU2FucyBUQycsIHNhbnMtc2VyaWYiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC45KSI+NS8yIOWkp+iNieWcsOaUvumiqDwvdGV4dD4KPC9zdmc+" alt="台中都會公園">
+  <div class="card-body">
+    <span class="time">13:00–14:30</span>
+    <h3>🌳 台中都會公園｜大草地放狗</h3>
+    <p>5/2主行程，空間大、視野開闊，適合讓狗狗好好跑一跑，再舒服回桃園。</p>
+    <a class="btn" href="https://www.google.com/maps/search/?api=1&query=台中都會公園" target="_blank">🌳 一鍵導航：台中都會公園</a>
+  </div>
+</div>
+
+<div class="card">
+  <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjcyMCIgdmlld0JveD0iMCAwIDEyMDAgNzIwIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iZyIgeDE9IjAiIHkxPSIwIiB4Mj0iMSIgeTI9IjEiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjNjk4N2E4Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2M1YjE4ZCIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3Qgd2lkdGg9IjEyMDAiIGhlaWdodD0iNzIwIiBmaWxsPSJ1cmwoI2cpIi8+CiAgPGNpcmNsZSBjeD0iOTgwIiBjeT0iMTIwIiByPSIxOTAiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4xOCkiLz4KICA8Y2lyY2xlIGN4PSIxNjAiIGN5PSI2MjAiIHI9IjIzMCIgZmlsbD0icmdiYSgyNTUsMjU1LDI1NSwwLjE0KSIvPgogIDx0ZXh0IHg9IjgwIiB5PSIyMzAiIGZvbnQtc2l6ZT0iOTYiIGZvbnQtZmFtaWx5PSJBcHBsZSBDb2xvciBFbW9qaSwgU2Vnb2UgVUkgRW1vamksIHNhbnMtc2VyaWYiPvCfmpc8L3RleHQ+CiAgPHRleHQgeD0iODAiIHk9IjM2MCIgZm9udC1zaXplPSI2NCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ05vdG8gU2FucyBUQycsIHNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IndoaXRlIj7lm57moYPlnJI8L3RleHQ+CiAgPHRleHQgeD0iODIiIHk9IjQzMCIgZm9udC1zaXplPSIzNCIgZm9udC1mYW1pbHk9Ii1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ05vdG8gU2FucyBUQycsIHNhbnMtc2VyaWYiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC45KSI+5LiL5Y2I5Zue56iL772c6LyV6ayG5pS25bC+PC90ZXh0Pgo8L3N2Zz4=" alt="回桃園">
+  <div class="card-body">
+    <span class="time">15:00 後</span>
+    <h3>🚗 回桃園</h3>
+    <p>建議下午3點左右回程，避開太晚塞車，行程收尾比較舒服。</p>
+    <a class="btn" href="https://www.google.com/maps/dir/?api=1&destination=桃園火車站" target="_blank">🚗 一鍵導航：回桃園火車站</a>
+  </div>
+</div>
+
+<div class="footer">
+  5/1–5/2 輕旅行｜賞桐花 × 台中住宿 × 狗狗放風
+</div>
+
+</main>
+</body>
+</html>
